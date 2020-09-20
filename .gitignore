@@ -2,6 +2,7 @@
 
 # dependencies
 /projects/PulseMarket/node_modules
+/projects/PulseMarket/layout
 /projects/Uber/node_modules
 /.pnp
 .pnp.js
