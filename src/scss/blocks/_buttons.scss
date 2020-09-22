@@ -1,0 +1,42 @@
+.button {
+    background: #34547A;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    width: 450px;
+    height: 65px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    z-index: 10;
+
+
+    &:hover {
+        box-shadow: 3px 3px 20px #34547A;
+        border: none;
+    }
+    &_main {
+        font-size: 16px;
+        margin-top: 67px;
+        height: 50px;
+        width: 300px;    
+    }
+    &_submit {
+        color: #fff;
+        height: 55px;
+        font-size: 16px;
+        width: 100%;
+    }
+    &_mini {
+        font-size: 14px;
+        height: 40px;
+        width: 131px;
+    }
+
+    &_mt {
+        margin-top: 30px;
+    }
+    
+}

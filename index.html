@@ -1,24 +1,259 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mоё портфолио</title>
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="project">
+    <section class="header" id='up'>
+        <nav class="menu">
+            <div class="container">
+                <ul class="menu__items">
+                    <li class="menu__item"><a href="#">Главная</a></li>
+                    <li class="menu__item"><a href="#me">Обо мне</a></li>
+                    <li class="menu__item"><a href="#me">Работы</a></li>
+                    <li class="menu__item"><a href="#proc">Процесс</a></li>
+                    <li class="menu__item"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="main">
         <div class="container">
-            <a href="./projects/WordPress/index.html">
-                1 модуль (HTML + CSS)
-            </a>
-            <a href="./projects/Uber/src/index.html">
-                2 модуль (HTML + CSS)
-            </a>
-            <a href="./projects/PulseMarket/dist/index.html">
-                3 модуль (БЭМ, Gulp, JS)
-            </a>   
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo" class="logo__img">
+                </div>
+                <div class="main__text">
+                    <div class="title title_main">
+                        Front-end разработка
+                    </div>
+                    <div class="main__descr">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Molestiae nobis nostrum dicta temporibus sequi est, porro 
+                        repellat libero iusto vitae illum quis quidem, esse facilis 
+                        sint excepturi voluptatem amet harum!
+                    </div>
+                    <button class="button button_mt" data-modal="consultation">
+                        Написать мне
+                    </button>
+                </div>
+            </div>
         </div>
     </section>
- 
+
+    <section class="about" id='me'>
+        <div class="container">
+            <div class="about__me">
+                <div class="title_about">
+                    Обо мне
+                </div>
+                <div class="about__descr">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Molestiae nobis nostrum dicta temporibus sequi est, porro 
+                    repellat libero iusto vitae illum quis quidem, esse facilis 
+                    sint excepturi voluptatem amet harum!
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="container">
+            <div class="title_projects">
+                Мои проекты
+            </div>
+            <div class="projects__items">
+                <div class="projects__item">
+                    <img src="icons/main_screen/uber.svg" alt="uber" class='projects__img'>
+                    <a href='https://soltanov-anar.github.io/projects/Uber/src/index.html' class="projects__link" target='_blank'>
+                        Вёрстка и адаптация макета Uber.
+                    </a>
+                </div>
+                
+                <div class="projects__item">
+                    <img src="icons/main_screen/run.svg" alt="uber" class='projects__img'>
+                    <a href='https://soltanov-anar.github.io/projects/PulseMarket/dist/index.html' class="projects__link" target='_blank'>
+                        Вёрстка и адаптация макета Run Smart.
+                    </a>
+                </div>
+
+                <div class="projects__item">
+                    <img src="icons/main_screen/react2.svg" alt="uber" class='projects__img' target='_blank'>
+                    <a href='https://github.com/Soltanov-Anar/Weather-web-app' class="projects__link">
+                        Weather-app <br>(React)      
+                    </a>              
+                </div>
+
+                <div class="projects__item">
+                    <img src="icons/main_screen/react3.svg" alt="uber" class='projects__img' target='_blank'>
+                    <a href='https://github.com/Soltanov-Anar/RepeatUdemyCourseReact' class="projects__link">
+                        Twitter-app <br>(React basic level)  
+                    </a>                
+                </div>
+
+                <div class="projects__item">
+                    <img src="icons/main_screen/react1.svg" alt="uber" class='projects__img' target='_blank'>
+                    <a href='https://github.com/Soltanov-Anar/RepeatGameOfThrones' class="projects__link">
+                        Game of Thrones <br>(React + Fetch API) 
+                    </a>                 
+                </div>
+
+                <div class="projects__item">
+                    <img src="icons/main_screen/react1.svg" alt="uber" class='projects__img' target='_blank'>
+                    <a href='https://github.com/Soltanov-Anar/restaurant-app' class="projects__link">
+                        Грузинский ресторан <br>(React + Redux) 
+                    </a>                 
+                </div>
+
+                <div class="projects__item">
+                    <img src="icons/main_screen/react1.svg" alt="uber" class='projects__img' target='_blank'>
+                    <a href='https://github.com/Soltanov-Anar/calculator-app' class="projects__link">
+                        Калькулятор <br>(React Hooks и Context API)   
+                    </a>               
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id='proc'>
+        <div class="container">
+            <div class="skills__my">
+                <div class="skills__text">
+                    <div class="title_about">
+                        Мои навыки
+                    </div>
+                    <div class="skills__descr">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Molestiae nobis nostrum dicta temporibus sequi est, porro 
+                        repellat libero iusto vitae illum quis quidem, esse facilis 
+                        sint excepturi voluptatem amet harum!
+                        <br><br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Molestiae nobis nostrum dicta temporibus sequi est, porro 
+                        repellat libero iusto vitae illum quis quidem, esse facilis 
+                        sint excepturi voluptatem amet harum!
+                        <br><br>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Molestiae nobis nostrum dicta temporibus sequi est, porro 
+                        repellat libero iusto vitae illum quis quidem, esse facilis 
+                        sint excepturi voluptatem amet harum!
+                    </div>
+                </div>
+                <div class="skills__image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+            <div class="work__wrapper">
+                    <div class="title_about">
+                        Как я работаю
+                    </div>
+                    <div class="work__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ullam voluptatem atque amet eveniet veniam ratione voluptatibus at quae, ipsa, placeat esse similique, tempora fuga minima. Nobis maiores impedit amet.
+                    </div>
+                    <div class="work__iframe">
+                        <iframe width="800" height="400" src="https://www.youtube.com/embed/iogabydg2y0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>          
+            </div>
+        </div>
+    </section>
+
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title">
+                Хотите веб-сайт?
+            </h2>
+            <div class="consultation__descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, dolore eius ex provident, explicabo adipisci vitae nobis suscipit voluptatum magni dicta repudiandae fuga non voluptas ut minima ea a. Tenetur?
+            </div>
+            <form class='feed-form' action="#" id='consultation-form'>
+                    <input name='name' required type="text" placeholder="Ваше имя"> <!-- поле для ввода -->
+                    <input name='phone' required placeholder="Ваше телефон">
+                    <input name='email' required type="email" placeholder="Ваше имейл">
+                    <button class='button button_submit'>
+                        Отправить
+                    </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class='footer' id='contacts'>
+        <div class="footer__info">
+            <div class='footer__me'>
+                Soltanov Anar
+                <a href="tel:89377924493" class='footer__phone'>
+                    +7 (937) 792-44-93
+                </a>
+                <br>
+                <span>(с) 2020. Все права защищены.</span>
+                
+            </div>
+            <div class="footer__social">
+                <a href="https://vk.com/soltanov_anar" class="footer__social-item" target="_blank">
+                    <img src="icons/vk.svg" alt="vk">
+                </a>
+                <a href="https://www.instagram.com/anar.sv/" class="footer__social-item" target="_blank">
+                    <img src="icons/instagram.svg" alt="instagram">
+                </a>
+                <a href="https://t.me/soltanov_anar" class="footer__social-item" target="_blank">
+                    <img src="icons/telegram.svg" alt="telegram">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay">
+        <div class="modal" id='consultation'>
+            <div class="modal__close">
+                &times;
+            </div>
+            <div class="modal__subtitle">
+                Просто заполните форму заявки
+            </div>
+            <div class="modal__descr">
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class='feed-form feed-form_mt25' action="#">
+                <input name='name' required type="text" placeholder="Ваше имя"> <!-- поле для ввода -->
+                <input name='phone' required placeholder="Ваше телефон">
+                <input name='email' required type="email" placeholder="Ваше имейл">
+                <button class='button button_submit'>
+                    Связаться со мной.
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal modal_mini" id='thanks'>
+        <div class="modal__close">
+            &times;
+        </div>
+        <div class="modal__subtitle">
+            Спасибо за вашу заявку!
+        </div>
+        <div class="modal__descr">
+            Свяжемся с вами в ближайшее время!
+        </div>
+    </div>
+
+    <a href="#up" class="page-up">
+        <img src="icons/up.svg" alt="up">
+    </a>
+    
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src='js/jquery.maskedinput.min.js'></script>
+    <script src='js/wow.min.js'></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

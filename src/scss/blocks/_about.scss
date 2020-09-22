@@ -1,0 +1,17 @@
+.about {
+    min-height: 370px;
+    padding: 60px 0 60px 0;
+    background: #fff;
+    &__me {
+        width: 540px;
+        height: 147px;
+        margin: 0 auto;
+    }
+    &__descr {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #727272;
+    }
+}

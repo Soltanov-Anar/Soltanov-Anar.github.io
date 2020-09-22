@@ -1,0 +1,30 @@
+.header {
+    min-height: 50px;
+}
+
+.menu {
+    z-index: 100;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    background:#2C3D50;
+    &__items {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        padding-left:0;
+    }
+    &__item {
+        font-size: 20px;
+        a {
+            color: #fff;
+            &:hover {
+                box-shadow: inset 0 -3px 0 rgba(0,0,0,.12);
+                text-decoration: none;
+                color: #1eacc7;
+            }
+        }
+    }
+}

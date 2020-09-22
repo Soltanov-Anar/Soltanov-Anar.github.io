@@ -1,0 +1,34 @@
+.title {
+    color: #0d0d0d;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &_left {
+        color: #fff;
+        font-size: 36px;
+        text-align-last: left;
+    }
+    &_main {
+        color: #0d0d0d;
+        font-size: 34px;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &_about {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #000000;
+    }
+    &_projects {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 37px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+}

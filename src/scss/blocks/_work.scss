@@ -1,0 +1,20 @@
+.work {
+    background: #EEEFF1;
+    min-height: 600px;
+    padding: 50px 0 50px 0;
+    &__iframe {
+        margin-top: 20px;
+    }
+    &__text {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}

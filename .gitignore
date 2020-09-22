@@ -1,9 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/projects/PulseMarket/node_modules
-/projects/PulseMarket/layout
-/projects/Uber/node_modules
+/pages/PulseMarket/node_modules
+/pages/PulseMarket/layout
+/pages/Uber/node_modules
+/node_modules
 /.pnp
 .pnp.js
 
