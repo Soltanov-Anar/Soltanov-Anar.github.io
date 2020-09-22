@@ -13,8 +13,9 @@
     &__image {
         width: 50%;
         height: 415px;
-        background: url(../img/me.jpg) center (center/cover) no-repeat;   
-        border-radius: 10px;
+        img {
+            border-radius: 10px;
+        }
     }
     &__descr {
         margin-top: 20px;
