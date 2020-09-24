@@ -1,6 +1,6 @@
 .footer {
     background: #34547A;
-    min-height: 250px;
+    min-height: 200px;
     padding: 50px 0 50px 0;
     display: flex;
     &__info {
@@ -9,19 +9,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column-reverse;
     }
     &__me {
         color: #fff;
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 500;
         text-align: center;
         line-height: 20px;
+        margin-top: 30px;
     }
     &__phone {
         display: block;
         color: #fff;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 24px;
         line-height: 20px;
         text-align: center;
         margin-top: 20px;
@@ -35,11 +37,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
-        margin: 0 15px;
+        width: 100px;
+        height: 100px;
+        margin: 0 30px;
         img {
-            height: 27px;
+            height: 65%;
         }
         &:hover {            
             box-shadow: 0px 0px 65px 2px rgba(6, 4, 151, 0.64) inset;            
